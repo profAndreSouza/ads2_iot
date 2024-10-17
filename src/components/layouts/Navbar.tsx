@@ -18,6 +18,16 @@ export default function Navbar() {
                 <i className="pi pi-bolt pr-4"></i> Sensores</Link>
             <Link href="/reports" className={`navlink ${pathname === '/reports' ?'active':''}`}>
                 <i className="pi pi-receipt pr-4"></i> Relatórios</Link>
+            <Link href="/monitoring" className={`navlink ${pathname === '/monitoring' ?'active':''}`}>
+                <i className="pi pi-receipt pr-4"></i> Monitoramento</Link>
+            <Link href="/settings" className={`navlink ${pathname === '/settings' ?'active':''}`}>
+                <i className="pi pi-receipt pr-4"></i> Configurações</Link>
+            <Link href="/notify" className={`navlink ${pathname === '/notify' ?'active':''}`}>
+                <i className="pi pi-receipt pr-4"></i> Notificações</Link>
+            <Link href="/history" className={`navlink ${pathname === '/history' ?'active':''}`}>
+                <i className="pi pi-receipt pr-4"></i> Histórico de produção</Link>
+            <Link href="/login" className={`navlink ${pathname === '/login' ?'active':''}`}>
+                <i className="pi pi-receipt pr-4"></i> Login</Link>
         </div>
         <div className="navbar-bottom">
             <hr />
