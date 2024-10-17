@@ -10,6 +10,11 @@ export default function Sensor() {
             <Header title="Sensores" username="André Souza" />
             <main>
               <h1>Conteúdo</h1>
+              Nome do Sensor <br />
+              Tipo de Sensor <br />
+              Localização <br />
+              <br />
+              Listagem de Sensores
             </main>
           </div>
         </div>
