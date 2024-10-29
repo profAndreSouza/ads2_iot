@@ -1,6 +1,7 @@
 "use client"
 import React, { useState, useEffect } from "react";
 import ClimateChart from "../charts/ClimateChart";
+import { fetchClimateData } from "@/services/ClimateService";
 
 interface ClimateData {
     labels: string[];
