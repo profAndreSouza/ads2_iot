@@ -3,18 +3,6 @@ import React, { useState, useEffect } from "react";
 import ClimateChart from "../charts/ClimateChart";
 import { fetchClimateData } from "@/services/ClimateService";
 
-interface ClimateData {
-    labels: string[];
-    datasets: {
-        label: string;
-        data: number[];
-        borderColor: string;
-        backgroundColor: string;
-        fill: boolean;
-        tension: number;
-    }[];
-}
-
 const ClimateData: React.FC = () => {
 
     const [chartData, setChartData] = useState<ClimateData | null>(null);

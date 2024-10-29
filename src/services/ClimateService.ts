@@ -1,16 +1,5 @@
 import axios from "axios";
 
-interface ClimateData {
-    labels: string[];
-    datasets: {
-        label: string;
-        data: number[];
-        borderColor: string;
-        backgroundColor: string;
-        fill: boolean;
-        tension: number;
-    }[];
-}
 
 export const fetchClimateData = async (): Promise<ClimateData> => {
     try {
