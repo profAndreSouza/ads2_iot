@@ -12,7 +12,7 @@ export default function Report() {
               <h1>Relatórios</h1>
 
               Formulário para selecionar parâmetros do relatório (Ex: período, etapa da produção, tipo de relatório: produção, consumo de energia, defeitos).<br />
-              Botão "Gerar Relatório".<br />
+              Botão &quot;Gerar Relatório&quot;.<br />
               Relatórios em PDF ou CSV disponíveis para download.<br />
               Gráfico gerado com base nos parâmetros escolhidos (Ex: produção diária, comparativo de consumo de energia entre turnos).<br />
               Tabela resumida com os principais dados do relatório

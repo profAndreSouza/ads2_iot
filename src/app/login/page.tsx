@@ -13,7 +13,7 @@ export default function Login() {
 
                 Campos de entrada para nome de usuário e senha.<br />
                 Botão de login.<br />
-                Link para "Esqueci minha senha".<br />
+                Link para &quot;Esqueci minha senha&quot;.<br />
 
             </main>
           </div>
