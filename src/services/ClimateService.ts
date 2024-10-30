@@ -1,11 +1,10 @@
 import axios from "axios";
 
+const API_URL = 'https://api.open-meteo.com/v1/forecast?latitude=-23.4772271&longitude=-47.5492724&past_days=2&hourly=temperature_2m,relative_humidity_2m,wind_speed_10m';
 
 export const fetchClimateData = async (): Promise<ClimateData> => {
     try {
-        const response = await axios.get(
-            'https://api.open-meteo.com/v1/forecast?latitude=-23.4772271&longitude=-47.5492724&past_days=2&hourly=temperature_2m,relative_humidity_2m,wind_speed_10m'
-        );
+        const response = await axios.get(API_URL);
 
         const { hourly } = response.data;
 
