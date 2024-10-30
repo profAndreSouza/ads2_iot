@@ -21,9 +21,9 @@ const ProductCard: React.FC<Product> = ({ id, category, rate, name, price, image
             <p className="text-sm text-gray-600"><strong>Categoria:</strong> {category}</p>
             <p className="text-sm text-gray-600"><strong>Avaliação:</strong> {rate}</p>
             <p className="text-sm text-gray-600"><strong>Preço:</strong> ${price}</p>
-            <Link href={`/products/${id}`} passHref>
+            <Link href={`/products/${id}`}>
                 <button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">
-                Comprar
+                    Comprar
                 </button>
             </Link>
         </div>
