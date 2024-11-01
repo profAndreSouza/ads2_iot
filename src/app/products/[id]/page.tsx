@@ -44,13 +44,13 @@ const ProductDetails: React.FC = () => {
         <div className="flex">
             <Sidebar />
             <div className="flex-1">
-                <Header title="Produto x" username="André Souza" />
+                <Header title="Produto" username="André Souza" />
                 <main>
 
                     {!product ? (
                         <div>Loading...</div>
                     ) : (
-                        <div className="p-8 max-w-4xl mx-auto">
+                        <div className="mt-20 p-8 max-w-4xl mx-auto">
                             <div className="flex flex-col items-center md:flex-row md:items-start">
                                 <div className="w-full md:w-1/2 mb-8 md:mb-0">
                                     <Image
