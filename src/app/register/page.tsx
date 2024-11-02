@@ -33,11 +33,10 @@ export default function Register() {
                     }
                 }
             ).then((response) => {
-                    console.log(response)
                     router.push('/login')
                 }
             ).catch((error) => {
-                    setError(error)
+                    setError(JSON.stringify(error.response.data))
                 }
             );
 
